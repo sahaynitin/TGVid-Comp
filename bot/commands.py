@@ -11,3 +11,10 @@ async def event(bot, update):
         disable_web_page_preview=True,
         reply_markup=Script.START_BUTTONS
     )
+async def up(event):
+    stt = dt.now()
+    ed = dt.now()
+    v = ts(int((ed - uptime).seconds) * 1000)
+    ms = (ed - stt).microseconds / 1000
+    p = f"Ping = {ms}ms"
+    await event.reply(v + "\n" + p)
