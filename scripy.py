@@ -7,9 +7,9 @@ class Script(object):
     START_TEXT = """
 Hey {} 
 
-I am Telegram Most Powerful Subtitle Muxer Bot
+I am Telegram Video Encoder Bot With Better Quality
 
-I can Mux Any Srt or Txt File in File or Video
+I can Encode Any Video or File in Negligible Quality
 
 Use Help Command to Know How to Use me
 
@@ -17,16 +17,10 @@ Made With 💕 By @Tellybots_4u
 """
     HELP_TEXT = """
 Recommended
-➠ Use Hardmux If You Have More Time
+➠ Just Send Me File Or Video To Get Started
 
 Recommended
-➠ Use Softmux To add Subtitle Fastly in It
-
-Softmux
-➠ Send /softmux to add Subtitle Softly in it
-
-HardMux
-➠ Send /hardmux to add Subtitle hardly in it 
+➠ Use Stats Button To Check Compressing Data
 
 Made With 💕 By @Tellybots_4u
 """
